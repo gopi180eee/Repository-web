@@ -21,7 +21,7 @@
         border: 2px solid rgba(255, 255, 255, 0.2);
         border-radius: 25px;
         padding: 40px;
-        max-width: 700px;
+        max-width: 800px;
         text-align: center;
         color: white;
         box-shadow: 0 20px 50px rgba(0,0,0,0.3);
@@ -33,71 +33,179 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .paragraph-box p {
-        font-size: 18px;
-        line-height: 1.8;
-        font-weight: 300;
+    .member {
+        display: inline-block;
+        margin: 10px;
+        width: 120px;
+        text-align: center;
     }
-   
-    .box {
-      background-color: #f0f0f0;
-      padding: 15px;
-      border-radius: 10px;
+    .member img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 3px solid yellow;
+        object-fit: cover;
+        transition: 0.3s;
     }
-
+    .member img:hover {
+        transform: scale(1.1);
+        border-color: red;
+    }
     .red { color: red; font-weight: bold; }
-    .blue { color: blue;font-weight: bold; }
-    .green { color: green;font-weight:bold; }
-    .brown{color:brown;font-weight:bold;}
-    .blue{color:blue;font-weight:bold;}
-  </style>
-
+    .green { color: #00FF7F; font-weight:bold; }
+    .blue { color: #00BFFF; font-weight: bold; }
+    .brown{color: orange; font-weight:bold;}
+</style>
 </head>
 <body>
 
     <div class="paragraph-box">
         <h1>🔥 MY SQUAD 🔥</h1>
         <p>
-            <span class="red">19 PEOPLE.<br></span>
-                <span class="green">19 PERSONALITIES.</span><br>
+            <span class="red">19 PEOPLE.</span><br>
+            <span class="green">19 PERSONALITIES.</span><br><br>
+        </p>
 
-<div class="member">
-    <img src="kundan.jpg">  <!-- href illa -->
-    <br>Leader Kundan
-</div>
+        <!-- CLICK PANNA FULL PHOTO VARUM -->
+        <div class="member">
+            <a href="kundan.jpg" target="_blank">
+                <img src="kundan.jpg">
+            </a>
+            <br><span class="blue">Leader Kundan</span>
+        </div>
 
-            
-<a href="photos/kundan.jpg"><span class= "blue";class="bold">Leader Kundan.</span></a> 
-<a href="/storage/emulated/0/sqd.html/photos/writer.jpg"><span class="brown">Gobinath Writer.</span></a>
-<a href="/storage/emulated/0/sqd.html/photos/karuna.jpg">karunamoorthi</a><br>
-<a href="/storage/emulated/0/sqd.html/photos/dileep.jpg">dileep</a><br>
-  <a href="/storage/emulated/0/sqd.html/photos/karuppu.jpg">karuppasamy</a><br>
- <a href="/storage/emulated/0/sqd.html/photos/aochar.jpg">Aochar Mangesh</a><br>    
- <a href="/storage/emulated/0/sqd.html/photos/Anil.jpg">Anil Kumar</a><br>
- <a href="/storage/emulated/0/sqd.html/photos/sreeraj.jpg">Sreeraj</a><br>
- <a href="/storage/emulated/0/sqd.html/photos/Makrand.jpg">mahadhik</a><br>
-             <a href="/storage/emulated/0/sqd.html/photos/domar.jpg">D S tomar</a><br>
-             <a href="/storage/emulated/0/sqd.html/photos/Amarjeet.jpg">Amarjeet</a><br> 
-            <a href="/storage/emulated/0/sqd.html/photos/noble.jpg">	Noble Jose</a><br>
-             <a href="/storage/emulated/0/sqd.html/photos/thakaare.jpg">Thakare Sagar</a><br>
-             <a href="/storage/emulated/0/sqd.html/photos/Rinku singh.jpg">Rinku Singh</a><br>
-             <a href="/storage/emulated/0/sqd.html/photos/vishal.jpg">Gaydhane Vishal</a><br>
-             <a href="/storage/emulated/0/sqd.html/photos/ravinder.jpg">Ravinder</a><br>
-             <a href="/storage/emulated/0/sqd.html/photos/bijender.jpg">Bijender Kumar</a><br>
-             <a href="/storage/emulated/0/sqd.html/photos/sanjay.jpg">Sanjay</a><br>
-             <a href="/storage/emulated/0/sqd.html/photos/Naveen.jpg">Naveen</a><br>
-             
-            
-            
-            
-            
-            
+        <div class="member">
+            <a href="writer.jpg" target="_blank">
+                <img src="writer.jpg">
+            </a>
+            <br><span class="brown">Gobinath</span>
+        </div>
+
+        <div class="member">
+            <a href="karuna.jpg" target="_blank">
+                <img src="karuna.jpg">
+            </a>
+            <br>Karunamoorthi
+        </div>
+
+        <div class="member">
+            <a href="dileep.jpg" target="_blank">
+                <img src="dileep.jpg">
+            </a>
+            <br>dileep
+        </div>
+
+        <div class="member">
+            <a href="karuppu.jpg" target="_blank">
+                <img src="karuppu.jpg">
+            </a>
+            <br>karuppasamy
+        </div>
+
+        <div class="member">
+            <a href="aochar.jpg" target="_blank">
+                <img src="aochar.jpg">
+            </a>
+            <br>Aochar Mangesh
+        </div>
+
+        <div class="member">
+            <a href="anil.jpg" target="_blank">
+                <img src="anil.jpg">
+            </a>
+            <br>Anil Kumar
+        </div>
+
+        <div class="member">
+            <a href="sreeraj.jpg" target="_blank">
+                <img src="sreeraj.jpg">
+            </a>
+            <br>Sreeraj
+        </div>
+
+        <div class="member">
+            <a href="makrand.jpg" target="_blank">
+                <img src="makrand.jpg">
+            </a>
+            <br>mahadhik
+        </div>
+
+        <div class="member">
+            <a href="domar.jpg" target="_blank">
+                <img src="domar.jpg">
+            </a>
+            <br>D S tomar
+        </div>
+
+        <div class="member">
+            <a href="Amarjeet.jpg" target="_blank">
+                <img src="Amarjeet.jpg">
+            </a>
+            <br>Amarjeet
+        </div>
+
+        <div class="member">
+            <a href="noble.jpg" target="_blank">
+                <img src="noble.jpg">
+            </a>
+            <br>Noble Jose
+        </div>
+
+        <div class="member">
+            <a href="thakaare.jpg" target="_blank">
+                <img src="thakaare.jpg">
+            </a>
+            <br>Thakare Sagar
+        </div>
+
+        <div class="member">
+            <a href="Rinku Singh.jpg" target="_blank">
+                <img src="Rinku Singh.jpg">
+            </a>
+            <br>Rinku Singh
+        </div>
+
+        <div class="member">
+            <a href="vishal.jpg" target="_blank">
+                <img src="vishal.jpg">
+            </a>
+            <br>Gaydhane Vishal
+        </div>
+
+        <div class="member">
+            <a href="ravinder.jpg" target="_blank">
+                <img src="ravinder.jpg">
+            </a>
+            <br>Ravinder
+        </div>
+
+        <div class="member">
+            <a href="bijender.jpg" target="_blank">
+                <img src="bijender.jpg">
+            </a>
+            <br>Bijender Kumar
+        </div>
+
+        <div class="member">
+            <a href="sanjay.jpg" target="_blank">
+                <img src="sanjay.jpg">
+            </a>
+            <br>Sanjay
+        </div>
+
+        <div class="member">
+            <a href="naveen.jpg" target="_blank">
+                <img src="naveen.jpg">
+            </a>
+            <br>Naveen
+        </div>
+
+        <p><br>
             every day feels like a memory and every memory feels like forever. 
             <br><br>
-            This is more than friendship. <span class="highlight">This is my squad.</span> ❤️
-            <footer> <br><a href="main.html">Back</a></footer> 
+            This is more than friendship. <span class="green">This is my squad.</span> ❤️
         </p>
+        <footer><br><a href="main.html" style="color:yellow;">Back</a></footer> 
     </div>  
-
 </body>
 </html>
