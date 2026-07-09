@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Marks Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      text-align: center;
+    }
+    th {
+      background: #4CAF50;
+      color: white;
+      padding: 8px;
+      border: 1px solid #333;
+      position: sticky;
+      top: 0; /* header scroll pannalum mela irukum */
+    }
+    td {
+      padding: 6px;
+      border: 1px solid #ccc;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2; /* alternate row */
+    }
+    tr:hover {
+      background-color: #ddd; /* hover effect */
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Marks Details</h2>
+
+<table>
+  <tr>
+    <th>NO</th>
+    <th>Rank</th>
+    <th>Name</th>
+    <th>Index No</th>
+    <th>WP-1 15/50</th>
+    <th>WP-2 7.5/25</th>
+    <th>P1 7.5/25</th>
+    <th>WP2+P1 15/50</th>
+    <th>WP-3 18/90</th>
+    <th>P2 27/90</th>
+    <th>WP3+P2 45/150</th>
+    <th>WP-4 12/40</th>
+    <th>P3 18/60</th>
+    <th>WP4+P3 30/100</th>
+  </tr>
+  <tr><td>1</td><td>L/NK</td><td>GOBINATH P</td><td>J-6803</td><td>35.0</td><td>12.0</td><td>17.0</td><td>29.0</td><td>30.5</td><td>52.0</td><td>82.5</td><td>17.0</td><td>35.0</td><td>52.0</td></tr>
+  <tr><td>2</td><td>SIGMN</td><td>KARUNAMOORTHI V</td><td>J-6804</td><td>36.5</td><td>17.5</td><td>15.5</td><td>33.0</td><td>38.0</td><td>42.0</td><td>80.0</td><td>19.0</td><td>38.0</td><td>57.0</td></tr>
+  <tr><td>3</td><td>SIGMN</td><td>DILEEP KUMAR</td><td>J-6805</td><td>30.5</td><td>11.0</td><td>16.0</td><td>27.0</td><td>23.5</td><td>39.0</td><td>62.5</td><td>13.5</td><td>33.5</td><td>47.0</td></tr>
+  <tr><td>4</td><td>SIGMN</td><td>KARUPPASAMY K</td><td>J-6806</td><td>31.0</td><td>18.0</td><td>14.5</td><td>32.5</td><td>31.5</td><td>43.5</td><td>75.0</td><td>18.0</td><td>32.5</td><td>50.5</td></tr>
+  <tr><td>5</td><td>SIGMN</td><td>AOCHAR MANGESH</td><td>J-6807</td><td>18.0</td><td>15.0</td><td>16.5</td><td>31.5</td><td>31.5</td><td>52.0</td><td>83.5</td><td>15.5</td><td>36.0</td><td>51.5</td></tr>
+  <tr><td>6</td><td>SIGMN</td><td>ANIL KUMAR</td><td>J-6808</td><td>48.0</td><td>20.0</td><td>17.5</td><td>37.5</td><td>38.5</td><td>55.0</td><td>93.5</td><td>23.0</td><td>43.0</td><td>66.0</td></tr>
+  <tr><td>7</td><td>SIGMN</td><td>SREERAJ N P</td><td>J-6809</td><td>35.0</td><td>15.5</td><td>17.0</td><td>32.5</td><td>38.0</td><td>64.0</td><td>102.0</td><td>17.5</td><td>38.5</td><td>56.0</td></tr>
+  <tr><td>8</td><td>SIGMN</td><td>MAHADIK MAKARAND</td><td>J-6810</td><td>17.5</td><td>11.0</td><td>15.5</td><td>26.5</td><td>23.0</td><td>40.0</td><td>63.0</td><td>17.0</td><td>35.0</td><td>52.0</td></tr>
+  <tr><td>9</td><td>SIGMN</td><td>DEEPU SINGH TOMAR</td><td>J-6811</td><td>27.0</td><td>16.5</td><td>13.5</td><td>30.0</td><td>31.0</td><td>49.0</td><td>80.0</td><td>20.0</td><td>33.0</td><td>53.0</td></tr>
+  <tr><td>10</td><td>L/NK</td><td>AMARJEET KUMAR</td><td>J-6812</td><td>17.5</td><td>8.0</td><td>14.5</td><td>22.5</td><td>23.5</td><td>42.0</td><td>65.5</td><td>13.5</td><td>31.5</td><td>45.0</td></tr>
+  <tr><td>11</td><td>L/NK</td><td>KUNDAN KUMAR</td><td>J-6813</td><td>32.5</td><td>14.0</td><td>16.0</td><td>30.0</td><td>29.5</td><td>49.0</td><td>78.5</td><td>23.0</td><td>40.5</td><td>63.5</td></tr>
+  <tr><td>12</td><td>L/NK</td><td>NOBLE JOSE</td><td>J-6814</td><td>15.0</td><td>11.5</td><td>18.0</td><td>27.5</td><td>25.0</td><td>42.0</td><td>84.0</td><td>12.0</td><td>34.0</td><td>46.0</td></tr>
+  <tr><td>13</td><td>SIGMN</td><td>THAKRE SAGAR SAHEBRAO</td><td>J-6815</td><td>28.0</td><td>15.0</td><td>17.0</td><td>32.0</td><td>35.0</td><td>45.0</td><td>80.0</td><td>21.0</td><td>29.0</td><td>50.0</td></tr>
+  <tr><td>14</td><td>SIGMN</td><td>RINKU SINGH</td><td>J-6816</td><td>27.0</td><td>14.0</td><td>14.5</td><td>28.5</td><td>23.5</td><td>46.0</td><td>69.5</td><td>15.5</td><td>31.0</td><td>46.5</td></tr>
+  <tr><td>15</td><td>SIGMN</td><td>GAYDHANE VISHAL MADHUKAR</td><td>J-6817</td><td>40.5</td><td>15.0</td><td>14.5</td><td>29.5</td><td>43.0</td><td>55.0</td><td>98.0</td><td>22.0</td><td>29.5</td><td>51.5</td></tr>
+  <tr><td>16</td><td>SIGMN</td><td>RAVINDER</td><td>J-6818</td><td>25.0</td><td>11.5</td><td>14.0</td><td>25.5</td><td>33.0</td><td>65.0</td><td>98.0</td><td>14.0</td><td>36.0</td><td>50.0</td></tr>
+  <tr><td>17</td><td>SIGMN</td><td>BIJENDER KUMAR</td><td>J-6819</td><td>31.0</td><td>15.5</td><td>16.0</td><td>31.5</td><td>37.5</td><td>73.0</td><td>110.5</td><td>21.0</td><td>39.0</td><td>60.0</td></tr>
+  <tr><td>18</td><td>SIGMN</td><td>SANJAY</td><td>J-6820</td><td>39.5</td><td>20.0</td><td>17.5</td><td>37.5</td><td>47.0</td><td>63.0</td><td>110.0</td><td>24.0</td><td>42.0</td><td>66.0</td></tr>
+  <tr><td>19</td><td>SIGMN</td><td>NAVEEN</td><td>J-6821</td><td>49.0</td><td>21.5</td><td>18.5</td><td>40.0</td><td>47.0</td><td>71.0</td><td>118.0</td><td>27.5</td><td>44.5</td><td>72.0</td></tr>
+</table>
+
+</body>
+</html>
